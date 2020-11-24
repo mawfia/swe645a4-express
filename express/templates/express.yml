@@ -31,8 +31,8 @@ spec:
         tier: backend
     spec:
       containers:
-        - name: express
-          image: mawfia/express:{{ .Values.version | default 1.0 }}
+        - name: express-kafka
+          image: mawfia/swe645a4-express:{{ .Values.version | default 1.0 }}
           ports:
             - name: express
               containerPort: 3000

@@ -1,6 +1,6 @@
 pipeline {
     environment {
-      registry = 'mawfia/express'
+      registry = 'mawfia/swe645a4-express'
       registryCredential = 'dockerhub-mawfia'
     }
     agent {
