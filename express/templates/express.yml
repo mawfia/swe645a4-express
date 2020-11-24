@@ -13,6 +13,7 @@ spec:
   selector:
     app: express-angular-kafka
     tier: backend
+  clusterIP: 10.100.222.47
 ---
 apiVersion: apps/v1
 kind: Deployment
