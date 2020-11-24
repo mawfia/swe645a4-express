@@ -1,2 +1,2 @@
 # swe645a3-express
-An Express proxy to bride Angular with Spring
+An Express proxy to bridge Angular with Spring
